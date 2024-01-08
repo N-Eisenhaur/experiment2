@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #090909;
 
     padding: 2rem 6rem;
 }
@@ -44,7 +45,6 @@
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
-
     margin: 0 1rem;
     cursor: pointer;
 }
@@ -126,9 +126,14 @@
         display: none;
     }
 
-    .gpt3__navbar-menu_container {
+  /*  .gpt3__navbar-menu_container {
         top: 20px;
-    }
+    }*/
+
+.gpt3__navbar-menu_container-links{
+top: 30px;
+
+}
 
     .gpt3__navbar-menu_container-links-sign {
         display: block;

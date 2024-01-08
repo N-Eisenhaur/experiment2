@@ -28,7 +28,20 @@ import logo from '../logo.svg';
               >
                 Services
               </Link></p>
-          <p><a href="#possibility">Open AI</a></p>
+
+              <p><Link
+                to='/gallery'
+              >
+               Gallery
+               </Link></p>
+          <p>
+          <Link
+                to='/recipes'
+              >
+               Recipes
+               </Link>
+            
+            </p>
           <p><a href="#features">Case Studies</a></p>
           <p><a href="#blog">Library</a></p>
         </div>
