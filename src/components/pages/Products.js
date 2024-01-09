@@ -1,6 +1,11 @@
-import React from 'react';
-import '../../App.css';
+import "../Product.css";
 
-export default function Products() {
-  return <h1 className='products'>PRODUCTS</h1>;
-}
+const Products = ({ result }) => {
+  return (
+    <>
+      <section className="card-container">{result}</section>
+    </>
+  );
+};
+
+export default Products;
